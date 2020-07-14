@@ -28,7 +28,13 @@ POSTGRE_PASS=admin
 POSTGRE_NAME=express
 ```
 
-3. Import the file into Insomnia 
+3. Run migrations
+
+```
+-> ~/yarn sequelize db:migrate
+```
+
+4. Import the file into Insomnia 
 
 ![import](https://github.com/teles1g/api-express/blob/master/import.png)
 
