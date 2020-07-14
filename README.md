@@ -12,10 +12,13 @@ In this project we will build an API for data transfer with the database (save, 
 
 1. Install the necessary packages
 
+```
 -> ~/yarn
+```
 
 2. Copy the ".env-example" to ".env" and configure the database connection according to your preference
 
+```
 Example: 
 
 POSTGRE_DIALECT=postgres
@@ -23,6 +26,7 @@ POSTGRE_HOST=localhost
 POSTGRE_USER=postgres
 POSTGRE_PASS=docker
 POSTGRE_NAME=express
+```
 
 Ps: in this project, the database that we are going to use is PostgreSQL.
 
@@ -37,3 +41,4 @@ Express.js: http://expressjs.com
 Docker: https://docs.docker.com
 
 Insomnia: https://insomnia.rest
+```
