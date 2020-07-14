@@ -23,12 +23,10 @@ Example:
 
 POSTGRE_DIALECT=postgres
 POSTGRE_HOST=localhost
-POSTGRE_USER=postgres
-POSTGRE_PASS=docker
+POSTGRE_USER=admin
+POSTGRE_PASS=admin
 POSTGRE_NAME=express
 ```
-
-Ps: in this project, the database that we are going to use is PostgreSQL.
 
 3. Import the file into Insomnia 
 
